@@ -1,0 +1,41 @@
+
+#myContent{
+  border-top: 40px solid #5D6772;
+}
+
+#mainContent{
+  display: inline-block;
+}
+
+.elements{
+  margin:10px;
+}
+
+.editing-item{
+  font-size: 20px;
+}
+
+.list .edited label:after{
+  content:"edited";
+  text-transform: uppercase;
+  color: #a7b9c4;
+  font-size: 14px;
+  padding-left: 5px;
+}
+/*
+intput[type="checkbox"]{
+  display:none;
+}
+input[type="checkbox"]+span{
+  display:inline-block;
+  width:19px;
+  height:19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background:url(checkbox-empty.svg) left top no-repeat;
+  cursor:pointer;
+}
+input[type="checkbox"]:checked+span{
+  background:url(checkbox-filled.svg) left top no-repeat;
+}
+*/
